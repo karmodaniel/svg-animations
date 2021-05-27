@@ -192,7 +192,36 @@
       }
     </style>
     <style>
-      
+
+    #caiaque-1, #caiaque-2 {
+      animation: movimento-mar 2.5s ease-in-out infinite alternate;
+    }
+
+     #caiaque-3, #caiaque-4 {
+      animation: movimento-mar2 2.5s ease-in-out infinite alternate;
+    }
+
+    #caiaque-5 {
+      animation: movimento-mar3 2.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes movimento-mar {
+      to {
+        transform: translate(4px, -6px);
+      }
+    }
+
+    @keyframes movimento-mar2 {
+      to {
+        transform: translate(-4px, 6px);
+      }
+    }
+
+    @keyframes movimento-mar3 {
+      to {
+        transform: translate(4px, -1px);
+      }
+    }
     </style>
     <linearGradient id="linear-gradient" x1="700" y1="588.28" x2="700" y2="375.14" gradientTransform="translate(0 384.72)" gradientUnits="userSpaceOnUse">
       <stop offset="0.19" stop-color="#ffead4"/>
