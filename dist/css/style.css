@@ -4,4 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #FFEAD4;
+  overflow-x: hidden;
+}
+
+.container-header {
+  width: 100vw;
+}
+
 /*# sourceMappingURL=style.css.map */
